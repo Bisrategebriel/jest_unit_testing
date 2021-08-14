@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Archieve</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="image/archieve.png" type="image/x-icon">
+</head>
+<body>
+  <nav>
+    <img src="image/archieve.png" alt="logo" class="logo-brand">
+    <ul>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Service</a></li>
+      <li><a href="#">Pricing</a></li>
+      <li><a href="#">Partners</a></li>
+    </ul>
+    <a href="#" class="nav-login-btn">Login</a>
+  </nav>
+  <header>
+    <div class="brand-img">
+      <img src="image/documents_illustration.png" alt="brand image">
+    </div>
+    <div class="login-form">
+      <h1>Login</h1>
+      <h6>Login to your account.</h6>
+      <form action="" method="POST" id="signupForm" autocomplete="off">
+        <label for="#first-name">First Name</label>
+        <input type="text" name="firstname" id="firstname">
+        <label for="#password">Password</label>
+        <input type="password" name="password" id="password">
+        <div class="rememberForgot">
+          <div class="remember">
+            <input type="checkbox" name="remember-me" id="remember-me">
+            <label for="#remember-me">Remember Me</label>
+          </div>
+          <a href="#" class="forgotPassword">Forgot Password?</a>
+        </div>
+        <a href="#" class="login-btn" type="submit">Login</a>
+        <small>Don't have an account? <a href="#" style="text-decoration: none; color: #F26248;">Create Account</a></small>
+      </form>
+      <div class="login-result" id="serverMessage"></div>
+    </div>
+  </header>
+
+  <script src="script.js"></script>
+</body>
+</html>

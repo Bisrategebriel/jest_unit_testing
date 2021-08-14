@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat';
+}
+
+nav {
+  width: 100%;
+  height: 100px;
+  box-shadow: 0 3px #f262487a;
+  background-color: white;
+  display: flex;
+}
+
+nav .logo-brand {
+  width: 120px;
+  height: 87px;
+  margin: 7px 0 0 100px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin-left: auto;
+  align-self: center;
+}
+
+ul li {
+  padding: 0 10px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+
+.nav-login-btn {
+  align-self: center;
+  margin-right: 150px;
+  margin-left: 30px;
+  text-decoration: none;
+  background-color: #F26248;
+  padding: 10px 15px;
+  color: white;
+  border-radius: 5px;
+}
+
+header {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+}
+
+.brand-img img{
+ width: 610px;
+ height: 650px;
+ margin: 0 10px 0 100px;
+}
+.login-form {
+  /* border: 1px solid red; */
+  margin: 20px 0;
+  padding: 50px;
+  width: 841px;
+  height: 650px;
+}
+.login-form h6{
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.login-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border-width: 1px;
+  outline: none;
+  font-size: 1rem;
+}
+input:focus {
+  outline: 1px solid #F26248;
+  border: none;
+}
+
+.rememberForgot {
+  display: flex;
+}
+.forgotPassword {
+  margin-left: auto;
+  text-decoration: none;
+  color: #F26248;
+}
+.login-btn {
+  width: 100%;
+  background-color: #F26248;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+  margin: 40px 0 20px;
+}
+
+.login-result {
+  margin: 20px;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: tomato;
+}
