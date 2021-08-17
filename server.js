@@ -1,16 +1,16 @@
 const express = require('express')
-const cors = require('cors')
+const cors = require('cors');
 
-const app = express()
+const app = express();
 
-app.use(express.json())
-app.use(cors())
+app.use(express.json());
+app.use(cors());
 
 
 const validatePassword = require('./validatePassword')
 
 app.post('/users', (req, res) => {
-  const { username, password } = req.body
+  const { username, password } = req.body;
 
   // Validate username
   // Validate password

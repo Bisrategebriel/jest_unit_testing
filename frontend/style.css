@@ -55,15 +55,15 @@ header {
 
 .brand-img img{
  width: 610px;
- height: 650px;
+ height: 550px;
  margin: 0 10px 0 100px;
 }
 .login-form {
   /* border: 1px solid red; */
   margin: 20px 0;
-  padding: 50px;
+  padding: 40px 100px;
   width: 841px;
-  height: 650px;
+  height: 550px;
 }
 .login-form h6{
   font-size: 14px;
@@ -110,6 +110,8 @@ input:focus {
   font-weight: 600;
   border-radius: 4px;
   margin: 40px 0 20px;
+  outline: none;
+  cursor: pointer;
 }
 
 .login-result {

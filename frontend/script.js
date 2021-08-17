@@ -6,10 +6,10 @@ const serverMessage = document.querySelector("#serverMessage")
 form.addEventListener("submit", async event => {
   event.preventDefault()
 
-  const password = password.value
-  const username = firstname.value
+  const password = passwordInput.value;
+  const username = usernameInput.value;
 
-  const result = await fetch('http://localhost:8080/users', {
+  const result = await fetch('http://localhost:4200/users', {
     method: 'POST',
     mode: 'cors',
     headers: {
